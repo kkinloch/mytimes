@@ -36,7 +36,22 @@
 
 .column .large {
   display: flex;
+  padding-right: 25px;
   flex-direction: column;
+  width: 630px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  border: 1px solid blue;
+}
+
+.column .mainimg {
+  display: flex;
+  background-image: url("../resources/images/img-story-main.png");
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
   width: 630px;
   border: 1px solid blue;
 }
@@ -56,20 +71,41 @@
   border: 1px solid blue;
 }
 
+.column .large .earth {
+  display: flex;
+  background-image: url("../resources/images/img-story-2.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 250px;
+  width: 630px;
+  border: 1px solid blue;
+}
 .column .large .large4 {
   width: 630px;
   border: 1px solid blue;
 }
 
-.column .large .large5 {
+.column .large .research {
+  background-image: url("../resources/images/img-story-3.png");
+  height: 250px;
   width: 630px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
   border: 1px solid blue;
 }
 
 .column .middle {
   display: flex;
   flex-direction: column;
+  padding-right: 25px;
   width: 300px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid green;
 }
 
@@ -78,7 +114,13 @@
   border: 1px solid green;
 }
 
-.column .middle .mid2 {
+.column .middle .cats {
+  background-image: url("../resources/images/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
   width: 300px;
   border: 4px solid green;
 }
@@ -92,6 +134,9 @@
   display: flex;
   flex-direction: column;
   width: 240px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: 1px solid purple;
 }
 
