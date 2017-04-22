@@ -186,3 +186,34 @@
 .column .small .sm3 {
   width: 240px;
 }
+
+footer {
+  width: 1250px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.site-name a {
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;
+}
+
+.footer-links {
+  padding-top: 60px;
+}
+
+footer a {
+    color: black;
+    padding: 0 20px;
+}
+
+.copyright {
+    padding-bottom: 60px;
+}
